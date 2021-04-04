@@ -1,0 +1,17 @@
+# > Global
+
+# > Crypto
+DOMAIN-SUFFIX,aex.com,Global
+DOMAIN-SUFFIX,bibox.com,Global
+DOMAIN-SUFFIX,binance.com,Global
+DOMAIN-SUFFIX,bitcointalk.org,Global
+DOMAIN-SUFFIX,bitfinex.com,Global
+DOMAIN-SUFFIX,bitmex.com,Global
+DOMAIN-SUFFIX,gate.io,Global
+DOMAIN-SUFFIX,huobi.com,Global
+DOMAIN-SUFFIX,okex.com,Global
+DOMAIN-SUFFIX,zb.com,Global
+
+# > Other
+DOMAIN-SUFFIX,medium.com,Global
+DOMAIN-SUFFIX,tradingview.com,Global
