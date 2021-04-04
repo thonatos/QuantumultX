@@ -1,2 +1,3 @@
 # QuantumultX
+
 QuantumultX Rules
