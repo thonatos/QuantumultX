@@ -1,17 +1,15 @@
-# > Global
+# Crypto
+host-suffix,aex.com,Global
+host-suffix,bibox.com,Global
+host-suffix,binance.com,Global
+host-suffix,bitcointalk.org,Global
+host-suffix,bitfinex.com,Global
+host-suffix,bitmex.com,Global
+host-suffix,gate.io,Global
+host-suffix,huobi.com,Global
+host-suffix,okex.com,Global
+host-suffix,zb.com,Global
 
-# > Crypto
-DOMAIN-SUFFIX,aex.com,Global
-DOMAIN-SUFFIX,bibox.com,Global
-DOMAIN-SUFFIX,binance.com,Global
-DOMAIN-SUFFIX,bitcointalk.org,Global
-DOMAIN-SUFFIX,bitfinex.com,Global
-DOMAIN-SUFFIX,bitmex.com,Global
-DOMAIN-SUFFIX,gate.io,Global
-DOMAIN-SUFFIX,huobi.com,Global
-DOMAIN-SUFFIX,okex.com,Global
-DOMAIN-SUFFIX,zb.com,Global
-
-# > Other
-DOMAIN-SUFFIX,medium.com,Global
-DOMAIN-SUFFIX,tradingview.com,Global
+# Other
+host-suffix,medium.com,Global
+host-suffix,tradingview.com,Global
