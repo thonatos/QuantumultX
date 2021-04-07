@@ -15,13 +15,68 @@ host-suffix,aaplimg.com,Apple
 host-suffix,apple.co,Apple
 host-suffix,apple.com,Apple
 host-suffix,apple.com.cn,Apple
-host-suffix,apple-cloudkit.com,Apple
-host-suffix,appstore.com,Apple
-host-suffix,cdn-apple.com,Apple
-host-suffix,icloud.com,Apple
-host-suffix,icloud.com.cn,Apple
-host-suffix,icloud-content.com,Apple
+host-suffix,itunes.com,Apple
 host-suffix,me.com,Apple
+
+# Stores
+host,iosapps.itunes.apple.com,Apple
+host,osxapps.itunes.apple.com,Apple
+host-suffix,appsto.re,Apple
 host-suffix,mzstatic.com,Apple
-host-keyword,apple.com.akadns.net,Apple
-host-keyword,icloud.com.akadns.net,Apple
+
+# Developer
+host-suffix,adcdownload.apple.com,Apple
+host-suffix,developer.apple.com,Apple
+
+# iCloud
+host-keyword,icloud,Apple
+host-keyword,icoudo,Apple
+host-keyword,icoudos,Apple
+host-suffix,applemx-icloud.com,Apple
+host-suffix,icloud-content.com,Apple
+host-suffix,icloud-isupport.com,Apple
+host-suffix,icloudads.net,Apple
+host-suffix,icloudbox.net,Apple
+host-suffix,icloudbrowser.net,Apple
+host-suffix,icloude.com,Apple
+host-suffix,icloudmusic.net,Apple
+host-suffix,icloudmail.net,Apple
+host-suffix,icloudnet.net,Apple
+host-suffix,icloudpay.net,Apple
+host-suffix,icloudsecure.net,Apple
+host-suffix,myicloud.net,Apple
+host-suffix,mail.me.com.akadns.net,Apple
+host-suffix,www-cdn.icloud.com.akadns.net,Apple
+host-suffix,icloud-sandbox.com,Apple
+host-suffix,icloud.com.cn,Apple
+host-suffix,icloud.net.cn,Apple
+
+# APIs
+host-suffix,ls.apple.com,Apple
+host,init-p01md.apple.com,Apple
+host,init-p01st.push.apple.com,Apple
+host,init-s01st.push.apple.com,Apple
+host-suffix,courier-push-apple.com.akadns.net,Apple
+host-suffix,push.apple.com,Apple
+
+# Kit
+host-suffix,apple-cloudkit.com,Apple
+host-suffix,apple-mapkit.com,Apple
+host-suffix,apple-livephotoskit.com,Apple
+
+# CDN
+host,updates-http.cdn-apple.com,Apple
+host-suffix,apple-support.akadns.net,Apple
+host-suffix,apple.com.akadns.net,Apple
+host-suffix,apple.com.cdn20.com,Apple
+host-suffix,apple.com.edgekey.net.globalredir.akadns.net,Apple
+host-suffix,apple.com.mwcname.com,Apple
+host-suffix,apple.com.mwcloudcdn.com,Apple
+host-suffix,cdn-apple.com,Apple
+host-suffix,cdn-apple.com.akadns.net,Apple
+host-suffix,isu.apple.com.akadns.net,Apple
+host-suffix,itunes-apple.com.akadns.net,Apple
+host-suffix,itunes.com.edgekey.net,Apple
+host-suffix,origin-apple.com.akadns.net,Apple
+host-suffix,push-apple.com.akadns.net,Apple
+host-suffix,prod-support.apple-support.akadns.net,Apple
