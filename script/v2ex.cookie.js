@@ -5,10 +5,10 @@ const cookieVal = $request.headers['Cookie'];
 if (cookieVal) {
   let cookie = $prefs.setValueForKey(cookieVal, cookieKey)
   if (cookie) {
-    let msg = `${cookieName}`
-    $notification.post(msg, 'Cookie写入成功', '详见日志')
-    console.log(msg)
-    console.log(cookieVal)
+    let msg = `${cookieName}`;
+    $notify.post(msg, 'Cookie写入成功', '详见日志');
+    console.log(msg);
+    console.log(cookieVal);
   }
 }
 

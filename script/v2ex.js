@@ -18,7 +18,7 @@ function sign() {
 
       console.log(`${title}, ${subTitle}, ${detail}`);
 
-      $notification.post(title, subTitle, detail);
+      $notify.post(title, subTitle, detail);
 
     } else {
       signMission(data.match(/<input[^>]*\/mission\/daily\/redeem\?once=(\d+)[^>]*>/)[1])
@@ -44,14 +44,14 @@ function signMission(code) {
       let subTitle = `签到结果: 签到成功`;
       let detail = ``;
       console.log(`${title}, ${subTitle}, ${detail}`);
-      $notification.post(title, subTitle, detail);
+      $notify.post(title, subTitle, detail);
 
     } else {
       let title = `${cookieName}`;
       let subTitle = `签到结果: 签到失败`;
       let detail = `详见日志`;
       console.log(`签到失败: ${cookieName}, error: ${error}, response: ${response}, data: ${data}`);
-      $notification.post(title, subTitle, detail);
+      $notify.post(title, subTitle, detail);
     }
   })
 }
