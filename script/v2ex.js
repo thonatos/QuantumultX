@@ -1,6 +1,6 @@
 const cookieName = 'V2EX';
 const cookieKey = 'qx_cookie_v2ex';
-const cookieVal = $persistentStore.read(cookieKey);
+const cookieVal = $prefs.valueForKey(cookieKey)
 
 function sign() {
   let url = {
