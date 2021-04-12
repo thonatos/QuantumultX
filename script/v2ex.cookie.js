@@ -1,12 +1,12 @@
-const cookieName = 'V2EX';
-const cookieKey = 'qx_cookie_v2ex';
-const cookieVal = $request.headers['Cookie'];
+const cookieName = 'V2EX'
+const cookieKey = 'qx_cookie_v2ex'
+const cookieVal = $request.headers['Cookie']
 
 if (cookieVal) {
   let cookie = $prefs.setValueForKey(cookieVal, cookieKey)
   if (cookie) {
     let msg = `${cookieName}`;
-    $notify.post(msg, 'Cookie写入成功', '详见日志');
+    $notify(msg, 'Cookie写入成功', '详见日志');
     console.log(msg);
     console.log(cookieVal);
   }
