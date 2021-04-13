@@ -1,4 +1,4 @@
-# YouTube
+# Site
 user-agent,com.google.ios.youtube*,YouTube
 user-agent,YouTube*,YouTube
 

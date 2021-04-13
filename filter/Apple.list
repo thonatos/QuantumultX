@@ -1,4 +1,4 @@
-# CIDR
+# Cidr
 ip-cidr,17.0.0.0/8,Apple
 ip-cidr,63.92.224.0/19,Apple
 ip-cidr,65.199.22.0/23,Apple
@@ -10,7 +10,7 @@ ip-cidr,192.35.50.0/24,Apple
 ip-cidr,198.183.17.0/24,Apple
 ip-cidr,205.180.175.0/24,Apple
 
-# SITE
+# Site
 host-suffix,aaplimg.com,Apple
 host-suffix,apple.co,Apple
 host-suffix,apple.com,Apple
