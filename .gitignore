@@ -1,2 +1,8 @@
+# common
+.DS_Store
+
+# dir
 conf/
+
+# file
 update.sh
