@@ -23,7 +23,7 @@ function sign() {
     } else {
       signMission(data.match(/<input[^>]*\/mission\/daily\/redeem\?once=(\d+)[^>]*>/)[1]);
     }
-  })
+  });
 }
 
 function signMission(code) {
