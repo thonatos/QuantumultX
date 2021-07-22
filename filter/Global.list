@@ -1,7 +1,12 @@
 # Crypto
+
 host-suffix,aex.com,Global
 host-suffix,bibox.com,Global
+
+host-suffix,binance.me,Global
 host-suffix,binance.com,Global
+host-suffix,binance.cloud,Global
+
 host-suffix,bitcointalk.org,Global
 host-suffix,bitfinex.com,Global
 host-suffix,bitmex.com,Global
