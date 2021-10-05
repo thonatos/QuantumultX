@@ -9,6 +9,8 @@ host-suffix,hanqiweb.co,Global
 host-suffix,binance.me,Global
 host-suffix,bnbstatic.com,Global
 
+host-suffix,bsc.news,Global
+
 host-suffix,bitcointalk.org,Global
 host-suffix,bitfinex.com,Global
 host-suffix,bitmex.com,Global
@@ -17,6 +19,7 @@ host-suffix,huobi.com,Global
 host-suffix,okex.com,Global
 host-suffix,ftx.com,Global
 host-suffix,zb.com,Global
+host-suffix,coinmarketcap.com,Global
 
 # Other
 host-suffix,redd.it,Global
@@ -25,5 +28,8 @@ host-suffix,redditmedia.com,Global
 
 host-suffix,medium.com,Global
 host-suffix,tradingview.com,Global
+
+host-suffix,github.com,Global
+host-suffix,githubusercontent.com,Global
 
 host,p54-buy.itunes.apple.com,Global
