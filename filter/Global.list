@@ -20,12 +20,13 @@ host-suffix,okex.com,Global
 host-suffix,ftx.com,Global
 host-suffix,zb.com,Global
 host-suffix,coinmarketcap.com,Global
+host-suffix,cointelegraph.com,Global
 
 # Other
 host-suffix,redd.it,Global
 host-suffix,reddit.com,Global
 host-suffix,redditmedia.com,Global
-
+host-suffix,discord.com,Global
 host-suffix,medium.com,Global
 host-suffix,tradingview.com,Global
 
