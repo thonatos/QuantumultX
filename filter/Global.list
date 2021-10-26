@@ -40,3 +40,6 @@ host-suffix,github.com,Global
 host-suffix,githubusercontent.com,Global
 
 host,p54-buy.itunes.apple.com,Global
+
+host,google.com,Global
+host,googleapis.com,Global
