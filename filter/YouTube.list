@@ -1,9 +1,9 @@
 # Site
-user-agent,com.google.ios.youtube*,YouTube
-user-agent,YouTube*,YouTube
+user-agent, com.google.ios.youtube*, YouTube
+user-agent, YouTube*, YouTube
 
-host-suffix,googlevideo.com,YouTube
-host-suffix,youtube.com,YouTube
-host-suffix,ytimg.com,YouTube
-host-suffix,youtubei.googleapis.com,YouTube
-host-suffix,yt3.ggpht.com,YouTube
+host-suffix, googlevideo.com, YouTube
+host-suffix, youtube.com, YouTube
+host-suffix, ytimg.com, YouTube
+host-suffix, youtubei.googleapis.com, YouTube
+host-suffix, yt3.ggpht.com, YouTube

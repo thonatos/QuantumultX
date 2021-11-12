@@ -1,49 +1,49 @@
 # Crypto
-host-suffix,aex.com,Global
-host-suffix,bibox.com,Global
+host-suffix, aex.com, Global
+host-suffix, bibox.com, Global
 
-host-suffix,binance.com,Global
-host-suffix,binance.cloud,Global
-host-suffix,yshyqxx.com,Global
-host-suffix,hanqiweb.co,Global
-host-suffix,binance.me,Global
-host-suffix,bnbstatic.com,Global
-host-suffix,bsc.news,Global
+host-suffix, binance.com, Global
+host-suffix, binance.cloud, Global
+host-suffix, yshyqxx.com, Global
+host-suffix, hanqiweb.co, Global
+host-suffix, binance.me, Global
+host-suffix, bnbstatic.com, Global
+host-suffix, bsc.news, Global
 
-host-suffix,safepal.io,Global
-host-suffix,safebrowdeing.apple,Global
-host-suffix,isafepal.com,Global
+host-suffix, safepal.io, Global
+host-suffix, safebrowdeing.apple, Global
+host-suffix, isafepal.com, Global
 
-host-suffix,bitcointalk.org,Global
-host-suffix,bitfinex.com,Global
-host-suffix,bitmex.com,Global
-host-suffix,gate.io,Global
-host-suffix,huobi.com,Global
-host-suffix,okex.com,Global
-host-suffix,ftx.com,Global
-host-suffix,zb.com,Global
-host-suffix,coinmarketcap.com,Global
-host-suffix,cointelegraph.com,Global
+host-suffix, bitcointalk.org, Global
+host-suffix, bitfinex.com, Global
+host-suffix, bitmex.com, Global
+host-suffix, gate.io, Global
+host-suffix, huobi.com, Global
+host-suffix, okex.com, Global
+host-suffix, ftx.com, Global
+host-suffix, zb.com, Global
+host-suffix, coinmarketcap.com, Global
+host-suffix, cointelegraph.com, Global
 
 # Other
-host-suffix,redd.it,Global
-host-suffix,reddit.com,Global
-host-suffix,redditmedia.com,Global
-host-suffix,discord.gg,Global
-host-suffix,discord.com,Global
-host-suffix,discordapp.com,Global
-host-suffix,discordapp.net,Global
-host-suffix,medium.com,Global
-host-suffix,tradingview.com,Global
+host-suffix, redd.it, Global
+host-suffix, reddit.com, Global
+host-suffix, redditmedia.com, Global
+host-suffix, discord.gg, Global
+host-suffix, discord.com, Global
+host-suffix, discordapp.com, Global
+host-suffix, discordapp.net, Global
+host-suffix, medium.com, Global
+host-suffix, tradingview.com, Global
 
-host-suffix,github.com,Global
-host-suffix,githubusercontent.com,Global
+host-suffix, github.com, Global
+host-suffix, githubusercontent.com, Global
 
-host-suffix,google.com,Global
-host-suffix,googleapis.com,Global
+host-suffix, google.com, Global
+host-suffix, googleapis.com, Global
 
-host-suffix,omtrdc.net,Global
-host-suffix,lpsnmedia.net,Global
-host-suffix,liveperson.net,Global
+host-suffix, omtrdc.net, Global
+host-suffix, lpsnmedia.net, Global
+host-suffix, liveperson.net, Global
 
-host,p54-buy.itunes.apple.com,Global
+host, p54-buy.itunes.apple.com, Global
