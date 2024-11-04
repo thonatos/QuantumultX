@@ -1,8 +1,14 @@
 # common
 .DS_Store
 
+# node.js
+node_modules/
+
 # dir
 conf/
 
 # file
 update.sh
+
+
+rules-singbox/*.json
