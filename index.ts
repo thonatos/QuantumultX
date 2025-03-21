@@ -143,6 +143,12 @@ const parseRule = (name: string, type: string, rules: string | string[]) => {
 
   const ruleList = Array.isArray(rules) ? rules : [rules];
   return ruleList.map(rule => {
+
+    // ignore ipv6
+    if(rule.includes(':')) {
+      return '';
+    }
+
     return `${type}, ${rule}, ${name}`;
   });
 };
@@ -174,7 +180,7 @@ const transformRuleSet = async (tag: string, url: string) => {
         return;
       }
       const foramtedRule = parseRule(tag, targetType, item[sourceType]);   
-      newRules.push(...foramtedRule);   
+      newRules.push(...foramtedRule);
     });
   });
 
