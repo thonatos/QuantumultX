@@ -605,6 +605,7 @@ host-suffix, boosj.com, geosite-cn
 host-suffix, bootcdn.net, geosite-cn
 host-suffix, bootcss.com, geosite-cn
 host-suffix, bosera.com, geosite-cn
+host-suffix, bosszhipin.com, geosite-cn
 host-suffix, broadcasthe.net, geosite-cn
 host-suffix, browserleaks.com, geosite-cn
 host-suffix, bstatic.com, geosite-cn
@@ -1554,6 +1555,7 @@ host-suffix, heytapcs.com, geosite-cn
 host-suffix, heytapdownload.com, geosite-cn
 host-suffix, heytapimage.com, geosite-cn
 host-suffix, heytapmobi.com, geosite-cn
+host-suffix, heytea-co.com, geosite-cn
 host-suffix, heytea.com, geosite-cn
 host-suffix, hftfund.com, geosite-cn
 host-suffix, hhtravel.com, geosite-cn
@@ -1784,7 +1786,6 @@ host-suffix, ipip.net, geosite-cn
 host-suffix, ipplus360.com, geosite-cn
 host-suffix, iprdp.net, geosite-cn
 host-suffix, ipssh.net, geosite-cn
-host-suffix, ipv6-test.com, geosite-cn
 host-suffix, iq.com, geosite-cn
 host-suffix, iqiyi.com, geosite-cn
 host-suffix, iqiyipic.com, geosite-cn
@@ -2206,6 +2207,8 @@ host-suffix, lrts.me, geosite-cn
 host-suffix, lsplayer.com, geosite-cn
 host-suffix, lu.com, geosite-cn
 host-suffix, lucifr.com, geosite-cn
+host-suffix, luckincdn.com, geosite-cn
+host-suffix, luckincoffee.com, geosite-cn
 host-suffix, luckincoffeecdn.com, geosite-cn
 host-suffix, luckyair.net, geosite-cn
 host-suffix, ludashi.com, geosite-cn
@@ -3025,8 +3028,6 @@ host-suffix, tendis.net, geosite-cn
 host-suffix, tenpay.com, geosite-cn
 host-suffix, tenxcloud.com, geosite-cn
 host-suffix, test-cignacmb.com, geosite-cn
-host-suffix, test-ipv4.com, geosite-cn
-host-suffix, test-ipv6.com, geosite-cn
 host-suffix, testwaf.com, geosite-cn
 host-suffix, texasholdemcup.com, geosite-cn
 host-suffix, texasholdemcup.net, geosite-cn
@@ -3548,6 +3549,7 @@ host-suffix, yoyou.com, geosite-cn
 host-suffix, ypppt.com, geosite-cn
 host-suffix, yqb.com, geosite-cn
 host-suffix, yrz.name, geosite-cn
+host-suffix, ysepay.com, geosite-cn
 host-suffix, yslyhr.com, geosite-cn
 host-suffix, ysten.com, geosite-cn
 host-suffix, ytzq.com, geosite-cn

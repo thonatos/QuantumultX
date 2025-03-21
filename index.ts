@@ -5,6 +5,21 @@ import { ProxyAgent, request } from 'urllib';
 const HTTP_PROXY = process.env.HTTP_PROXY;
 
 const RULE_SET = [
+  // geo-lite
+  {
+    "type": "remote",
+    "tag": "geoip-private",
+    "format": "source",
+    "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/private.json",
+    "download_detour": "auto-out"
+  },
+  {
+    "type": "remote",
+    "tag": "geosite-private",
+    "format": "source",
+    "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/private.json",
+    "download_detour": "auto-out"
+  },
   {
     "type": "remote",
     "tag": "geoip-cn",
@@ -21,16 +36,37 @@ const RULE_SET = [
   },
   {
     "type": "remote",
+    "tag": "geoip-apple",
+    "format": "source",
+    "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/apple.json",
+    "download_detour": "auto-out"
+  },
+  {
+    "type": "remote",
     "tag": "geosite-apple",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/apple.json",
     "download_detour": "auto-out"
   },
+  // {
+  //   "type": "remote",
+  //   "tag": "geoip-github",
+  //   "format": "source",
+  //   "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/github.json",
+  //   "download_detour": "auto-out"
+  // },
   {
     "type": "remote",
     "tag": "geosite-github",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/github.json",
+    "download_detour": "auto-out"
+  },
+  {
+    "type": "remote",
+    "tag": "geoip-telegram",
+    "format": "source",
+    "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/telegram.json",
     "download_detour": "auto-out"
   },
   {
@@ -42,9 +78,23 @@ const RULE_SET = [
   },
   {
     "type": "remote",
+    "tag": "geoip-twitter",
+    "format": "source",
+    "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/twitter.json",
+    "download_detour": "auto-out"
+  },
+  {
+    "type": "remote",
     "tag": "geosite-twitter",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/twitter.json",
+    "download_detour": "auto-out"
+  },
+  {
+    "type": "remote",
+    "tag": "geoip-cloudflare",
+    "format": "source",
+    "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/cloudflare.json",
     "download_detour": "auto-out"
   },
   {
@@ -53,7 +103,22 @@ const RULE_SET = [
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/cloudflare.json",
     "download_detour": "auto-out"
-  }
+  },
+  // geo
+  {
+    "type": "remote",
+    "tag": "geosite-binance",
+    "format": "source",
+    "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/binance.json",
+    "download_detour": "auto-out"
+  },
+  {
+    "type": "remote",
+    "tag": "geosite-bybit",
+    "format": "source",
+    "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/bybit.json",
+    "download_detour": "auto-out"
+  },
 ];
 
 const RULE_TYPE_MAP = {
@@ -131,7 +196,13 @@ const main = async () => {
           return;
         }
 
-        await transformRuleSet(tag, url);
+        try {
+          
+          await transformRuleSet(tag, url);
+        } catch (error) {
+          console.log(`Error downloading ${tag}: ${error}`);
+        }
+        
       }
     )
   );

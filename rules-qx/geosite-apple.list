@@ -805,7 +805,6 @@ host-suffix, ibeatsbydre.cc, geosite-apple
 host-suffix, ibeatsbydre.com, geosite-apple
 host-suffix, ichat.co.in, geosite-apple
 host-suffix, icloud-content.com.cn, geosite-apple
-host-suffix, icloud-sandbox.com, geosite-apple
 host-suffix, idvd.eu, geosite-apple
 host-suffix, igoshopping.net, geosite-apple
 host-suffix, ikids.com, geosite-apple
@@ -1207,6 +1206,7 @@ host-suffix, darwinsourcecode.com, geosite-apple
 host-suffix, icloud-apple.cn, geosite-apple
 host-suffix, icloud-content.com, geosite-apple
 host-suffix, icloud-isupport.com, geosite-apple
+host-suffix, icloud-sandbox.com, geosite-apple
 host-suffix, icloud.ch, geosite-apple
 host-suffix, icloud.com, geosite-apple
 host-suffix, icloud.com.cn, geosite-apple
@@ -1514,6 +1514,7 @@ host-suffix, ukipad.com, geosite-apple
 host-suffix, wwwipodlounge.com, geosite-apple
 host-suffix, wwwmacbookair.com, geosite-apple
 host-suffix, apple.comscoreresearch.com, geosite-apple
+host-suffix, apple.news, geosite-apple
 host-suffix, appleenews.com, geosite-apple
 host-suffix, applemusic.berlin, geosite-apple
 host-suffix, applemusic.co, geosite-apple
@@ -1551,7 +1552,6 @@ host-suffix, musickit.net, geosite-apple
 host-suffix, wwwapplemusic.com, geosite-apple
 host-suffix, applemusic.com, geosite-apple
 host-suffix, apple-dns.net, geosite-apple
-host-suffix, apple.news, geosite-apple
 host-suffix, digicert.com, geosite-apple
 host-suffix, apple-cloudkit.com, geosite-apple
 host-suffix, apple-livephotoskit.com, geosite-apple
