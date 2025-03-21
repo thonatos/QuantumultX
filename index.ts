@@ -8,98 +8,98 @@ const RULE_SET = [
   // geo-lite
   {
     "type": "remote",
-    "tag": "geoip-private",
+    "tag": "geoip_private",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/private.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite-private",
+    "tag": "geosite_private",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/private.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geoip-cn",
+    "tag": "geoip_cn",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/cn.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite-cn",
+    "tag": "geosite_cn",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/cn.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geoip-apple",
+    "tag": "geoip_apple",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/apple.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite-apple",
+    "tag": "geosite_apple",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/apple.json",
     "download_detour": "auto-out"
   },
-  // {
-  //   "type": "remote",
-  //   "tag": "geoip-github",
-  //   "format": "source",
-  //   "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/github.json",
-  //   "download_detour": "auto-out"
-  // },
   {
     "type": "remote",
-    "tag": "geosite-github",
+    "tag": "geosite_github",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/github.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geoip-telegram",
+    "tag": "geosite_youtube",
+    "format": "source",
+    "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/youtube.json",
+    "download_detour": "auto-out"
+  },
+  {
+    "type": "remote",
+    "tag": "geoip_telegram",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/telegram.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite-telegram",
+    "tag": "geosite_telegram",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/telegram.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geoip-twitter",
+    "tag": "geoip_twitter",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/twitter.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite-twitter",
+    "tag": "geosite_twitter",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/twitter.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geoip-cloudflare",
+    "tag": "geoip_cloudflare",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/cloudflare.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite-cloudflare",
+    "tag": "geosite_cloudflare",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/cloudflare.json",
     "download_detour": "auto-out"
@@ -107,14 +107,14 @@ const RULE_SET = [
   // geo
   {
     "type": "remote",
-    "tag": "geosite-binance",
+    "tag": "geosite_binance",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/binance.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite-bybit",
+    "tag": "geosite_bybit",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/bybit.json",
     "download_detour": "auto-out"

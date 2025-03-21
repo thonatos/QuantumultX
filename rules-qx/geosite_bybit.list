@@ -1,0 +1,16 @@
+host, bybit-exchange.github.io, geosite_bybit
+host, bybit.ada.support, geosite_bybit
+host-suffix, bybit.com, geosite_bybit
+host-suffix, bycsi.com, geosite_bybit
+host-suffix, bytick.com, geosite_bybit
+host-suffix, byapis.com, geosite_bybit
+host-suffix, bycbe.com, geosite_bybit
+host-suffix, bymj.io, geosite_bybit
+host-suffix, byabcde.com, geosite_bybit
+host-suffix, byapps.net, geosite_bybit
+host-suffix, byd3c3.com, geosite_bybit
+host-suffix, bybit.biz, geosite_bybit
+host-suffix, bybdc6.com, geosite_bybit
+host-suffix, bybit-global.com, geosite_bybit
+host-suffix, bybit.cloud, geosite_bybit
+host-suffix, bybitglobal.com, geosite_bybit
