@@ -124,9 +124,12 @@ const RULE_SET = [
 const RULE_TYPE_MAP = {
   'ip_cidr': 'ip-cidr',
   'domain': 'host',
+  // 'domain_regex': 'host-wildcard',
   'domain_suffix': 'host-suffix',
   'domain_keyword': 'host-keyword',
 };
+
+const ruleTypes = new Set();
 
 const proxyAgent = HTTP_PROXY ? new ProxyAgent(HTTP_PROXY) : undefined;
 
@@ -143,13 +146,13 @@ const parseRule = (name: string, type: string, rules: string | string[]) => {
 
   const ruleList = Array.isArray(rules) ? rules : [rules];
   return ruleList.map(rule => {
-
-    // ignore ipv6
+    let _type = type;
+    // ipv6
     if(rule.includes(':')) {
-      return '';
+      _type = 'ip6-cidr';
     }
 
-    return `${type}, ${rule}, ${name}`;
+    return `${_type}, ${rule}, ${name}`;
   });
 };
 
@@ -174,7 +177,13 @@ const transformRuleSet = async (tag: string, url: string) => {
 
   const newRules: string[] = [];
 
-  rules.map((item: any) => {    
+  rules.map((item: any) => {
+    Object.keys(item).forEach((key) => {
+      if (!ruleTypes.has(key)) {
+        ruleTypes.add(key);
+      }
+    });
+
     Object.entries(RULE_TYPE_MAP).map(([sourceType, targetType]) => {
       if (!item[sourceType]) {
         return;
@@ -203,15 +212,16 @@ const main = async () => {
         }
 
         try {
-          
+          console.log('Downloading', tag, url);
           await transformRuleSet(tag, url);
         } catch (error) {
           console.log(`Error downloading ${tag}: ${error}`);
         }
-        
       }
     )
   );
+
+  console.log('rule types', ruleTypes.values());
 }
 
 main();
