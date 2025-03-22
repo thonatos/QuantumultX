@@ -15,7 +15,8 @@ ip-cidr, 224.0.0.0/3, geo_private
 ip6-cidr, ::/127, geo_private
 ip6-cidr, fc00::/7, geo_private
 ip6-cidr, fe80::/10, geo_private
-ip6-cidr, ff00::/8, geo_privatehost, instant.arubanetworks.com, geo_private
+ip6-cidr, ff00::/8, geo_private
+host, instant.arubanetworks.com, geo_private
 host, setmeup.arubanetworks.com, geo_private
 host, asusrouter.com, geo_private
 host, router.asus.com, geo_private

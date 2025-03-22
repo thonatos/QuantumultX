@@ -1,13 +1,4 @@
-ip-cidr, 17.0.0.0/8, geo_apple
-ip-cidr, 63.92.224.0/19, geo_apple
-ip-cidr, 65.199.22.0/23, geo_apple
-ip-cidr, 139.178.128.0/18, geo_apple
-ip-cidr, 144.178.0.0/19, geo_apple
-ip-cidr, 144.178.36.0/22, geo_apple
-ip-cidr, 144.178.48.0/20, geo_apple
-ip-cidr, 192.35.50.0/24, geo_apple
-ip-cidr, 198.183.17.0/24, geo_apple
-ip-cidr, 205.180.175.0/24, geo_applehost, appldnld.apple.com.edgesuite.net, geo_apple
+host, appldnld.apple.com.edgesuite.net, geo_apple
 host, apple-events.akamaized.net, geo_apple
 host, appleworldwidedeveloper.hb-api.omtrdc.net, geo_apple
 host, appleworldwidedeveloper.sc.omtrdc.net, geo_apple
@@ -1573,3 +1564,13 @@ host-keyword, buy.itunes.apple.com, geo_apple
 host-keyword, smp-device, geo_apple
 host-keyword, testflight, geo_apple
 host-keyword, icloud.com.akadns.net, geo_apple
+ip-cidr, 17.0.0.0/8, geo_apple
+ip-cidr, 63.92.224.0/19, geo_apple
+ip-cidr, 65.199.22.0/23, geo_apple
+ip-cidr, 139.178.128.0/18, geo_apple
+ip-cidr, 144.178.0.0/19, geo_apple
+ip-cidr, 144.178.36.0/22, geo_apple
+ip-cidr, 144.178.48.0/20, geo_apple
+ip-cidr, 192.35.50.0/24, geo_apple
+ip-cidr, 198.183.17.0/24, geo_apple
+ip-cidr, 205.180.175.0/24, geo_apple

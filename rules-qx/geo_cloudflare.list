@@ -40,7 +40,8 @@ host-suffix, pages.dev, geo_cloudflare
 host-suffix, trycloudflare.com, geo_cloudflare
 host-suffix, videodelivery.net, geo_cloudflare
 host-suffix, warp.plus, geo_cloudflare
-host-suffix, workers.dev, geo_cloudflareip-cidr, 1.0.0.0/24, geo_cloudflare
+host-suffix, workers.dev, geo_cloudflare
+ip-cidr, 1.0.0.0/24, geo_cloudflare
 ip-cidr, 1.1.1.0/24, geo_cloudflare
 ip-cidr, 5.10.244.0/22, geo_cloudflare
 ip-cidr, 5.175.141.0/24, geo_cloudflare

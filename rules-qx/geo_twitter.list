@@ -23,7 +23,8 @@ host-suffix, twttr.net, geo_twitter
 host-suffix, twvid.com, geo_twitter
 host-suffix, vine.co, geo_twitter
 host-suffix, x.com, geo_twitter
-host-keyword, twitter, geo_twitterip-cidr, 8.25.194.0/23, geo_twitter
+host-keyword, twitter, geo_twitter
+ip-cidr, 8.25.194.0/23, geo_twitter
 ip-cidr, 8.25.196.0/23, geo_twitter
 ip-cidr, 64.63.0.0/18, geo_twitter
 ip-cidr, 69.12.56.0/21, geo_twitter

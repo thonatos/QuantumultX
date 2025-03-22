@@ -7489,7 +7489,8 @@ ip6-cidr, 240d:8000::/24, geo_cn
 ip6-cidr, 240e::/18, geo_cn
 ip6-cidr, 240f:4000::/24, geo_cn
 ip6-cidr, 240f:8000::/24, geo_cn
-ip6-cidr, 240f:c000::/24, geo_cnhost, analytics.strava.com, geo_cn
+ip6-cidr, 240f:c000::/24, geo_cn
+host, analytics.strava.com, geo_cn
 host, blzddist1-a.akamaihd.net, geo_cn
 host, cdn.angruo.com, geo_cn
 host, client.amplifi.com, geo_cn

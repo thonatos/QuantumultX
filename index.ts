@@ -230,7 +230,7 @@ const transformRuleSet = async (src: string, name: string, url: string) => {
 
   // save qx rules
   const qxData = newRules.join('\n');
-  writeRule('rules-qx', `${name}.list`, qxData);
+  writeRule('rules-qx', `${name}.list`, qxData + '\n');
 };
 
 const main = async () => {
