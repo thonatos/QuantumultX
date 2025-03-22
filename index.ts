@@ -8,98 +8,112 @@ const RULE_SET = [
   // geo-lite
   {
     "type": "remote",
-    "tag": "geoip_private",
+    "src": "geoip_private",
+    "name": "geo_private",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/private.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite_private",
+    "src": "geosite_private",
+    "name": "geo_private",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/private.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geoip_cn",
+    "src": "geoip_cn",
+    "name": "geo_cn",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/cn.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite_cn",
+    "src": "geosite_cn",
+    "name": "geo_cn",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/cn.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geoip_apple",
+    "src": "geoip_apple",
+    "name": "geo_apple",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/apple.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite_apple",
+    "src": "geosite_apple",
+    "name": "geo_apple",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/apple.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite_github",
+    "src": "geosite_github",
+    "name": "geo_github",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/github.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite_youtube",
+    "src": "geosite_youtube",
+    "name": "geo_youtube",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/youtube.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geoip_telegram",
+    "src": "geoip_telegram",
+    "name": "geo_telegram",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/telegram.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite_telegram",
+    "src": "geosite_telegram",
+    "name": "geo_telegram",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/telegram.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geoip_twitter",
+    "src": "geoip_twitter",
+    "name": "geo_twitter",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/twitter.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite_twitter",
+    "src": "geosite_twitter",
+    "name": "geo_twitter",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/twitter.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geoip_cloudflare",
+    "src": "geoip_cloudflare",
+    "name": "geo_cloudflare",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/cloudflare.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite_cloudflare",
+    "src": "geosite_cloudflare",
+    "name": "geo_cloudflare",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/cloudflare.json",
     "download_detour": "auto-out"
@@ -107,14 +121,16 @@ const RULE_SET = [
   // geo
   {
     "type": "remote",
-    "tag": "geosite_binance",
+    "src": "geosite_binance",
+    "name": "geo_binance",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/binance.json",
     "download_detour": "auto-out"
   },
   {
     "type": "remote",
-    "tag": "geosite_bybit",
+    "src": "geosite_bybit",
+    "name": "geo_bybit",
     "format": "source",
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/bybit.json",
     "download_detour": "auto-out"
@@ -133,10 +149,29 @@ const ruleTypes = new Set();
 
 const proxyAgent = HTTP_PROXY ? new ProxyAgent(HTTP_PROXY) : undefined;
 
-const saveFile = (dir: string, name: string, data: string) => {
+const clearRuleDir = (dir: string) => {
+  const fileDir = path.resolve(__dirname, dir);
+
+  if (fs.existsSync(fileDir)) {
+    const files = fs.readdirSync(fileDir);
+    files.forEach(file => {
+      if (file.endsWith('.json') || file.endsWith('.list')) {
+        fs.unlinkSync(path.join(fileDir, file));
+      }
+    });
+  }
+};
+
+const writeRule = (dir: string, name: string, data: string) => {
   const fileDir = path.resolve(__dirname, dir);
   const filePath = path.join(fileDir, name);
-  fs.writeFileSync(filePath, data);
+
+  if (!fs.existsSync(fileDir)) {
+    fs.writeFileSync(filePath, data);
+    return;  
+  }
+
+  fs.appendFileSync(filePath, data);
 };
 
 const parseRule = (name: string, type: string, rules: string | string[]) => {
@@ -148,7 +183,7 @@ const parseRule = (name: string, type: string, rules: string | string[]) => {
   return ruleList.map(rule => {
     let _type = type;
     // ipv6
-    if(rule.includes(':')) {
+    if (type === 'ip-cidr' && rule.includes(':')) {
       _type = 'ip6-cidr';
     }
 
@@ -156,7 +191,7 @@ const parseRule = (name: string, type: string, rules: string | string[]) => {
   });
 };
 
-const transformRuleSet = async (tag: string, url: string) => {
+const transformRuleSet = async (src: string, name: string, url: string) => {
   // download singbox rules
   const { data } = await request(url, {
     followRedirect: true,
@@ -166,7 +201,7 @@ const transformRuleSet = async (tag: string, url: string) => {
   });
 
   const singboxData = JSON.stringify(data, null, 2);
-  saveFile('rules-singbox', `${tag}.json`, singboxData);
+  writeRule('rules-singbox', `${src}.json`, singboxData);
 
   // transform rules
   const { version, rules } = data;
@@ -188,23 +223,28 @@ const transformRuleSet = async (tag: string, url: string) => {
       if (!item[sourceType]) {
         return;
       }
-      const foramtedRule = parseRule(tag, targetType, item[sourceType]);   
+      const foramtedRule = parseRule(name, targetType, item[sourceType]);
       newRules.push(...foramtedRule);
     });
   });
 
   // save qx rules
   const qxData = newRules.join('\n');
-  saveFile('rules-qx', `${tag}.list`, qxData);
+  writeRule('rules-qx', `${name}.list`, qxData);
 };
 
 const main = async () => {
   const ruleSetList = RULE_SET.filter((item) => item.type === 'remote')
 
+  // clear rule dirs
+  clearRuleDir('rules-singbox');
+  clearRuleDir('rules-qx');
+
+  // download and transform rules
   await Promise.all(
     ruleSetList.map(
       async (ruleSet) => {
-        const { url, tag } = ruleSet;
+        const { url, src, name } = ruleSet;
 
         if (!url) {
           console.log(`URL is empty, skip download`);
@@ -212,10 +252,10 @@ const main = async () => {
         }
 
         try {
-          console.log('Downloading', tag, url);
-          await transformRuleSet(tag, url);
+          console.log('Downloading', src, url);
+          await transformRuleSet(src, name, url);
         } catch (error) {
-          console.log(`Error downloading ${tag}: ${error}`);
+          console.log(`Error downloading ${src}: ${error}`);
         }
       }
     )
