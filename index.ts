@@ -206,7 +206,7 @@ const transformRuleSet = async (src: string, name: string, url: string) => {
   // transform rules
   const { version, rules } = data;
 
-  if (version !== 1) {
+  if (version !== 2) {
     return;
   }
 
@@ -228,6 +228,7 @@ const transformRuleSet = async (src: string, name: string, url: string) => {
     });
   });
 
+  console.log(`Transformed ${src} rules:`, newRules.length);
   // save qx rules
   const qxData = newRules.join('\n');
   writeRule('rules-qx', `${name}.list`, qxData + '\n');
