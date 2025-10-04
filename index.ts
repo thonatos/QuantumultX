@@ -135,6 +135,14 @@ const RULE_SET = [
     "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/bybit.json",
     "download_detour": "auto-out"
   },
+  {
+    "type": "remote",
+    "src": "geosite_openai",
+    "name": "geo_openai",
+    "format": "source",
+    "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/openai.json",
+    "download_detour": "auto-out"
+  },
 ];
 
 const RULE_TYPE_MAP = {

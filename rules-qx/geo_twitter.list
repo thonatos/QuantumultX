@@ -1,5 +1,6 @@
 host-suffix, ads-twitter.com, geo_twitter
 host-suffix, cms-twdigitalassets.com, geo_twitter
+host-suffix, grok.com, geo_twitter
 host-suffix, periscope.tv, geo_twitter
 host-suffix, pscp.tv, geo_twitter
 host-suffix, t.co, geo_twitter
