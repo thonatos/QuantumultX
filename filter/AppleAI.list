@@ -1,0 +1,12 @@
+# Apple Intelligence
+host, apple-relay.apple.com, AppleAI
+host, apple-relay.cloudflare.com, AppleAI
+host, apple-relay.fastly-edge.com, AppleAI
+host, cp2.cloudflare.com, AppleAI
+host, cp4.cloudflare.com, AppleAI
+host, apps.mzstatic.com, AppleAI
+host, guzzoni.apple.com, AppleAI
+host, gateway.icloud.com.cn, AppleAI
+host, gspe1-ssl.ls.apple.com, AppleAI
+host, proxy.safebrowsing.apple, AppleAI
+host-suffix, smoot.apple.com, AppleAI
