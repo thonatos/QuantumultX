@@ -11,6 +11,7 @@ host, kc.kexinshe.com, geo_cn
 host, ntservicepack.microsoft.com, geo_cn
 host, origin-a.akamaihd.ne, geo_cn
 host, origin-a.akamaihd.net, geo_cn
+host, smart.uhdnow.com, geo_cn
 host, sms.imagetasks.com, geo_cn
 host, steamcommunity-a.akamaihd.net, geo_cn
 host, tx.lilyemby.com, geo_cn
@@ -5876,7 +5877,6 @@ ip-cidr, 103.155.48.0/23, geo_cn
 ip-cidr, 103.155.76.0/23, geo_cn
 ip-cidr, 103.155.100.0/23, geo_cn
 ip-cidr, 103.155.110.0/23, geo_cn
-ip-cidr, 103.155.120.0/23, geo_cn
 ip-cidr, 103.155.214.0/23, geo_cn
 ip-cidr, 103.155.248.0/23, geo_cn
 ip-cidr, 103.156.28.0/23, geo_cn
@@ -9237,7 +9237,6 @@ ip6-cidr, 2001:df4:a680::/48, geo_cn
 ip6-cidr, 2001:df4:a980::/48, geo_cn
 ip6-cidr, 2001:df4:c180::/48, geo_cn
 ip6-cidr, 2001:df4:c580::/48, geo_cn
-ip6-cidr, 2001:df4:c780::/48, geo_cn
 ip6-cidr, 2001:df4:e140::/46, geo_cn
 ip6-cidr, 2001:df5:1440::/48, geo_cn
 ip6-cidr, 2001:df5:2080::/48, geo_cn

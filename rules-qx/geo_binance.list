@@ -27,6 +27,8 @@ host-suffix, binancezh.sh, geo_binance
 host-suffix, binancezh.top, geo_binance
 host-suffix, binanceapi.com, geo_binance
 host-suffix, bnbstatic.com, geo_binance
+host-suffix, bntrace.com, geo_binance
+host-suffix, nftstatic.com, geo_binance
 host-suffix, appsflayer.com, geo_binance
 host-suffix, saasexch.cc, geo_binance
 host-suffix, saasexch.co, geo_binance
