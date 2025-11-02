@@ -1474,11 +1474,9 @@ host-suffix, ukipad.com, geo_apple
 host-suffix, wwwipodlounge.com, geo_apple
 host-suffix, wwwmacbookair.com, geo_apple
 host-suffix, apple.comscoreresearch.com, geo_apple
-host-suffix, apple.news, geo_apple
 host-suffix, appleenews.com, geo_apple
 host-suffix, applemusic.berlin, geo_apple
 host-suffix, applemusic.co, geo_apple
-host-suffix, applemusic.com, geo_apple
 host-suffix, applemusic.com.au, geo_apple
 host-suffix, applemusic.hamburg, geo_apple
 host-suffix, applemusic.wang, geo_apple
@@ -1511,7 +1509,9 @@ host-suffix, iphoto.se, geo_apple
 host-suffix, iphoto.wang, geo_apple
 host-suffix, musickit.net, geo_apple
 host-suffix, wwwapplemusic.com, geo_apple
+host-suffix, applemusic.com, geo_apple
 host-suffix, apple-dns.net, geo_apple
+host-suffix, apple.news, geo_apple
 host-suffix, digicert.com, geo_apple
 host-suffix, apple-cloudkit.com, geo_apple
 host-suffix, apple-icloud.cn, geo_apple

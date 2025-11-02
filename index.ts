@@ -72,6 +72,22 @@ const RULE_SET = [
   },
   {
     "type": "remote",
+    "src": "geoip_netflix",
+    "name": "geo_netflix",
+    "format": "source",
+    "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/netflix.json",
+    "download_detour": "auto-out"
+  },
+  {
+    "type": "remote",
+    "src": "geosite_netflix",
+    "name": "geo_netflix",
+    "format": "source",
+    "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/netflix.json",
+    "download_detour": "auto-out"
+  },
+  {
+    "type": "remote",
     "src": "geoip_telegram",
     "name": "geo_telegram",
     "format": "source",
@@ -176,7 +192,7 @@ const writeRule = (dir: string, name: string, data: string) => {
 
   if (!fs.existsSync(fileDir)) {
     fs.writeFileSync(filePath, data);
-    return;  
+    return;
   }
 
   fs.appendFileSync(filePath, data);
