@@ -1,6 +1,5 @@
 host, e13252.dscg.akamaiedge.net, geo_netflix
 host, h-netflix.online-metrix.net, geo_netflix
-host, netflix.com.edgesuite.net, geo_netflix
 host-suffix, cookielaw.org, geo_netflix
 host-suffix, fast.com, geo_netflix
 host-suffix, flxvpn.net, geo_netflix
@@ -53,4 +52,7 @@ ip6-cidr, 2607:fb10::/32, geo_netflix
 ip6-cidr, 2620:0:ef0::/48, geo_netflix
 ip6-cidr, 2620:10c:7000::/44, geo_netflix
 ip6-cidr, 2a00:86c0::/32, geo_netflix
-ip6-cidr, 2a03:5640::/32, geo_netflix
+ip6-cidr, 2a03:5640:1000::/36, geo_netflix
+ip6-cidr, 2a03:5640:2000::/35, geo_netflix
+ip6-cidr, 2a03:5640:4000::/34, geo_netflix
+ip6-cidr, 2a03:5640:8000::/33, geo_netflix

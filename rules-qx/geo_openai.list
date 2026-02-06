@@ -5,7 +5,6 @@ host, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net, geo_openai
 host, openaicomproductionae4b.blob.core.windows.net, geo_openai
 host, production-openaicom-storage.azureedge.net, geo_openai
 host, static.cloudflareinsights.com, geo_openai
-host, o33249.ingest.sentry.io, geo_openai
 host-suffix, ai.com, geo_openai
 host-suffix, algolia.net, geo_openai
 host-suffix, api.statsig.com, geo_openai
@@ -30,5 +29,4 @@ host-suffix, segment.io, geo_openai
 host-suffix, sentry.io, geo_openai
 host-suffix, stripe.com, geo_openai
 host-suffix, turn.livekit.cloud, geo_openai
-host-suffix, openai.com, geo_openai
 host-keyword, openai, geo_openai
