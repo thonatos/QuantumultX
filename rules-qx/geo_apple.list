@@ -1019,6 +1019,7 @@ host-suffix, icloud-content.com.cn, geo_apple
 host-suffix, icloud-isupport.com, geo_apple
 host-suffix, icloud-sandbox.com, geo_apple
 host-suffix, icloud.ch, geo_apple
+host-suffix, icloud.cn, geo_apple
 host-suffix, icloud.com, geo_apple
 host-suffix, icloud.com.cn, geo_apple
 host-suffix, icloud.de, geo_apple
